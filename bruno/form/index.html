@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- This div is to delimit the entire scheduled part of the page. -->
+    <div class="register-card">
+
+        <!-- This div is being used to abstract the correct location of the image. -->
+        <div class="image-container">
+
+            <!-- This div is being used to indicate the path of the folder where the image is located. -->
+            <div class="form-image">
+                <img src="/form/img/undraw_shopping_re_hdd9.svg" alt="">
+            </div>
+        </div>
+
+        <!-- This div is being used to set up a place to the "Sign up" indication. -->
+        <div class="form-container">
+            <form action="#">
+                <h2>Sign up</h2>
+
+                <!-- This div is for the first colum. -->
+                <div class="form-columns">
+
+                    <!-- This div is for the left form. -->
+                    <div class="left-form">
+
+                        <!-- This form is for the "fisrt name" field. -->
+                        <div class="form-field">
+                            <label for="first-name">First name</label>
+                            <input type="text" placeholder="Type your first name" required>
+                        </div>
+
+                        <!-- This div is for the "second" name field. -->
+                        <div class="form-field">
+                            <label for="second-name">Second name</label>
+                            <input type="text" placeholder="Type your second name" required>
+                        </div>
+
+                        <!-- This form is for the "email" field. -->
+                        <div class="form-field">
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="Type your email" required>
+                        </div>
+                    </div>
+
+                    <!-- This div is for the right form. -->
+                    <div class="right-form">
+
+                        <!-- This div is for the "phone" field. -->
+                        <div class="form-field">
+                            <label for="number">Phone</label>
+                            <input type="tel" placeholder="(XX) XXXX-XXXX" required>
+                        </div>
+
+                        <!-- This div is for the "password" field. -->
+                        <div class="form-field">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Type your password" required>
+                        </div>
+
+                        <!-- This div is for the "confirm your password" field. -->
+                        <div class="form-field">
+                            <label for="password-confirm">Confirm your password</label>
+                            <input type="password" placeholder="Confirm your password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This div is for the second colum. -->
+                <div class="gender-field">
+
+
+                    <!-- This label is for the gender options. -->
+                    <label for="gender">Gender</label>
+
+
+                    <!-- This div is for the "female" gender option. -->
+                    <div class="gender-options">
+                        <div class="radio-field">
+                            <input type="checkbox" value="Feminino" />
+                            <label>Female</label>
+                        </div>
+
+
+                        <!-- This div is for the "male" gender option. -->
+                        <div class="radio-field">
+                            <input type="checkbox" value="Masculino" />
+                            <label>Male</label>
+                        </div>
+
+                        <!-- This div is for the "other" gender option. -->
+                        <div class="radio-field">
+                            <input type="checkbox" value="Other" />
+                            <label>Outher</label>
+                        </div>
+
+                        <!-- This div is for the "prefer not say" gender option. -->
+                        <div class="radio-field">
+                            <input type="checkbox" value="none"></input>
+                            <label>Prefer not say</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- This button is for the "conrtinue" button. -->
+                <button type="submit" class="submit-button">Continue</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
